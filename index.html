@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="site-main-wrapper">
+        <button class="bars">
+            <i class="fa-solid fa-bars-staggered bars-logo"></i>
+        </button>
+
+        <div class="mobile-nav">
+            <button class="cross"><i class="fa-solid fa-xmark cross-logo"></i></button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+            <div class="right"></div>
+                <button class="btn btn-primary" type="button" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact</button>
+            </div>
+        </div>
+
+    <!-- Header section -->
+
+    <header>
+        <div class="container">
+        <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center ">
+                <div class="logo items-center">
+                    <img src="images/logo.png" alt="logo" width="" height="50px">
+                </div>
+                <div>
+                    <a href="#home">Home</a>
+                    <a href="#aboutme">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                </div>
+            </div>
+            <div class="right">
+                <button class="btn btn-primary" type="button" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact</button>
+            </div>
+        </nav>
+        <div class="hero flex items-center justify-between " id="home">
+            <div class="left flex-1 flex justify-center">
+                <img src="images/IMG_5037 (1).PNG">
+            </div>
+            <div class="right">
+                <h6>Rohit Kumar</h6>
+                <h1>Web Developer <br><span>Front End Developer</span></h1>
+                <p>I am dedicated to transforming ideas into engaging digital experiences. My expertise in front-end technologies allows me to build fast, responsive, and visually appealing websites that enhance user engagement and satisfaction.</p>
+                <div>
+                    <button class="btn btn-secondary" type="button" onclick="location.href='https://drive.google.com/file/d/1E8VZIQoeeFEHXHHfYK0msSgdhHBIi-Qq/view?usp=drive_link'">DOWNLOAD CV</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- About section -->
+
+    <section class="about" id="aboutme">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <img class="about-me-img" src="/images/1726644724297.png" alt="img">
+            </div>
+            <div class="flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello I'm Rohit Kumar</h3>
+                <p>I am motivated and versatile individual, always eager to take new challange ,with a passion of learning. I am dedicated to delivering high-quality results. with a positive attitute and a growth mindset.I am ready to make a meaningful contribution and achieve great things.</p>
+        <div class="links">
+            <a href="https://www.facebook.com/profile.php?id=100017164451629"><i class="fa-brands fa-facebook-f social"></i></a>
+            <a href="https://www.instagram.com/_rohithakur10/?hl=en"><i class="fa-brands fa-instagram social"></i></a>
+            <a href="https://www.linkedin.com/in/rohit-kumar-249964276/"><i class="fa-brands fa-linkedin-in social"></i></a>
+            <a href="https://x.com/RThakur0429"><i class="fa-brands fa-twitter social"></i></a>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- skills section -->
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h1 class="section-heading"><span>Technial</span> skills</h1>
+            <p>Proficient in diverse technical skills.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <i class="fa-brands fa-html5 skill-logo"></i>
+                    <h2>HTML</h2>
+                    <p>HTML structure web pages</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-brands fa-css3-alt skill-logo"></i>
+                    <h2>CSS</h2>
+                    <p>Styles and Design Web pages</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-brands fa-js skill-logo"></i>
+                    <h2>JAVA Script</h2>
+                    <p>Adds interactivity to web pages</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-brands fa-bootstrap skill-logo"></i>
+                    <h2>Bootstrap</h2>
+                    <p>Responsive Framework for web design</p>
+                </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <!-- freelancer Section -->
+
+    <section class="freelancer">
+        <h1>I am available for freelance work.</h1>
+        <p>Eager about turning your ideas into reality with creative and professional freelance services. </p>
+        <button class="btn btn-primary" type="button" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact Me</button>
+    </section>
+
+    <!-- projects section -->
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h1 class="section-heading"><span> Pro</span>jects</h1>
+            <p>Highlights of my work and the projects that define my experience.</p>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="overlay">
+                    <span>Landing Page</span>
+                    <p>HTML , CSS and JavaScript</p>
+                    <a href=" https://rohithakur10.github.io/landing-page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <img class="projects-img" src="images/landing page.png" alt="landing page">
+            </div>
+
+            <div class="card">
+                <div class="overlay">
+                    <span>Books</span>
+                    <p>HTML , CSS and Bootstrap</p>
+                    <a href="https://rohithakur10.github.io/books/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <img class="projects-img" src="images/books.png" alt="landing page">
+            </div>
+
+            <div class="card">
+                <div class="overlay">
+                    <span>To-Do List</span>
+                    <p>HTML , CSS And JavaScript</p>
+                    <a href=" https://rohithakur10.github.io/to-do-list1/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <img class="projects-img" src="images/to do list.png" alt="landing page">
+            </div>
+
+            <div class="card">
+                <div class="overlay">
+                    <span>Amazone Clone</span>
+                    <p>HTML , CSS</p>
+                    <a href="https://rohithakur10.github.io/Amazon-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <img class="projects-img" src="images/Amazone clone.png" alt="landing page">
+            </div>
+        </div>   
+    </section>
+
+    <!-- Education Section -->
+
+    <section class="education" id="education">
+        <div class="container">
+            <h1 class="section-heading"><span>Edu</span>cation</h1>
+            <p>An overview of my academic journey and learning milestones.</p>
+        </div>
+        <div class="card-wrapper items-center">
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="images/Chandigarh uiversity.jpg.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>MCA</h1>
+                    <span>Pursuing</span>
+                    <p>Chandigarh University</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="images/Ravindranath tagore univ.jpg">
+                </div>
+                <div class="card-content">
+                    <h1>BCA</h1>
+                    <span>DEC 2019-DEC 2021</span>
+                    <p>Ravindranath Tagore University</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="images/j p s banuri.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <h1>+2</h1>
+                    <span>MAR 2016-MAR 2017</span>
+                    <p>Jai Public Sr. Sec. School Banuri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+     <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="section-heading">Contact<span> Me</span></h1>
+            <p>Looking for a developer for your next project or just want to say hello? I’d be happy to hear from you!</p>
+            <div class="card-wrapper">
+
+            <div class="card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h1>Call Me on</h1>
+                <h6>9418065452</h6>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-envelope"></i>
+                <h1>Email Me At</h1>
+                <h6>rt933322@gmail.com</h6>
+            </div>
+        </div>
+       <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="input-wrap">
+            <input type="hidden" name="access_key" value="37dcd5a7-8aac-4dd1-8af3-9e42f4df5399">
+            <input type="text" name="name" placeholder="Your Name *">
+            <input type="text" name="phonenumber" placeholder="Phone Number *">
+        </div>
+        <div class="input-wrap-2">
+            <input type="email" name="email" placeholder="Your Email *">
+            <textarea name="message" id="" placeholder="Enter Your Message.."></textarea>
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn btn-primary">SEND MESSAGE</button>
+        </div>
+       </form>
+        </div>
+     </section>
+
+
+     <!-- footer part -->
+      
+
+     <footer>
+        <img src="/images/logo.png">
+
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=100017164451629"><i class="fa-brands fa-facebook-f social-links "></i></a>
+            <a href="https://www.instagram.com/_rohithakur10/?hl=en"><i class="fa-brands fa-instagram social-links"></i></a>
+            <a href="https://www.linkedin.com/in/rohit-kumar-249964276/"><i class="fa-brands fa-linkedin-in social-links"></i></a>
+            <a href="https://x.com/RThakur0429"><i class="fa-brands fa-twitter social-links"></i></a>
+            <div class="Copyright">
+                Copyright 2024 © Rohit Kumar 
+            </div>
+        </div>
+     </footer>
+    </div>   
+    
+    <script src="app.js/main.js"></script>
+</body>
+</html>
