@@ -622,6 +622,7 @@ footer .Copyright {
     .projects .card-wrapper .card .overlay {
         width: 250px;
         height: 100%;
+        text-align: center;
     }
     
 } 
