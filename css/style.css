@@ -626,6 +626,12 @@ footer .Copyright {
     }
     
 } 
+
+@media (max-width :425px) {
+    .about-me-img {
+        width: 210px;
+    }  
+}
  
  @media (max-width :375px) {
     .skills .card-wrapper {
